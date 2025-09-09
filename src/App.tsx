@@ -95,7 +95,7 @@ function App() {
       <nav className="nav">
         <div className="nav-container">
           <div className="nav-logo">
-            <img src="/public/01 (1).png" alt="Logo" className="logo-img" />
+            <img src="/01 (1).png" alt="Logo" className="logo-img" />
           </div>
 
 
