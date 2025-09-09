@@ -207,11 +207,11 @@ function App() {
       <section id="features" className="features">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Why Choose MnyMkt?</h2>
-            <p className="section-description">
-              Powerful features designed to help you grow your wealth and achieve your financial goals.
-            </p>
-          </div>
+  <h2 className="section-title gradient-text">Why Choose MnyMkt?</h2>
+  <p className="section-description gradient-subtext">
+    Powerful features designed to help you grow your wealth and achieve your financial goals.
+  </p>
+</div>
 
           <div className="features-grid">
             {features.map((feature, index) => (
@@ -302,8 +302,7 @@ function App() {
             <img src="/WhatsApp Image 2025-09-08 at 6.07.31 PM.jpeg" alt="Portfolio Dashboard" className="screenshot-img" />
           </div>
         </div>
-        <h3 className="screenshot-title">Portfolio Dashboard</h3>
-        <p className="screenshot-description">Track your investments with real-time updates and performance metrics.</p>
+        
       </div>
 
       {/* Screenshot 2 */}
@@ -313,8 +312,7 @@ function App() {
             <img src="/WhatsApp Image 2025-09-08 at 6.07.30 PM.jpeg" alt="Market Analysis" className="screenshot-img" />
           </div>
         </div>
-        <h3 className="screenshot-title">Market Analysis</h3>
-        <p className="screenshot-description">Stay updated with market trends and stock performance data.</p>
+        
       </div>
 
       {/* Screenshot 3 */}
@@ -324,8 +322,7 @@ function App() {
             <img src="/WhatsApp Image 2025-09-08 at 6.07.32 PM.jpeg" alt="Easy Trading" className="screenshot-img" />
           </div>
         </div>
-        <h3 className="screenshot-title">Easy Trading</h3>
-        <p className="screenshot-description">Execute trades quickly with our simplified trading interface.</p>
+       
       </div>
     </div>
   </div>

@@ -307,6 +307,7 @@ body {
   background: white;
 }
 
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -787,8 +788,8 @@ body {
   }
   
   .phone-mockup {
-    width: 220px;
-    height: 440px;
+    width: 278px;
+    height: 448px;
   }
   
   .achievements-grid {
