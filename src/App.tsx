@@ -327,7 +327,7 @@ function App() {
             <div className="screenshot-item">
               <div className="phone-frame">
                 <div className="screenshot-mockup">
-                  <img src="/photo-3.jpeg" alt="Easy Trading" className="screenshot-img" />
+                  <img src="/Screenshot_1757496179.png" alt="Easy Trading" className="screenshot-img" />
                 </div>
               </div>
 
