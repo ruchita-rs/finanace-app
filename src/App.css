@@ -808,6 +808,12 @@ body {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 1150px){
+.cta-button {
+  margin-bottom: 20px;
+
+}
+}
 
 /* Smooth scrolling */
 html {
