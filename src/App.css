@@ -807,6 +807,9 @@ body {
   .about-text{
     margin-bottom: 20px;
   }
+  .logo-img {
+    height: 25px;
+  }
 }
 @media (max-width: 1150px){
 .cta-button {
