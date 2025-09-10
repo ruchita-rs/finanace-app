@@ -84,7 +84,7 @@ function App() {
 
   const achievements = [
     { number: "500K+", label: "Active Users" },
-    { number: "$2B+", label: "Assets Managed" },
+    { number: "2B+", label: "Assets Managed" },
     { number: "4.8★", label: "App Rating" },
     { number: "99.9%", label: "Uptime" }
   ];
@@ -132,7 +132,7 @@ function App() {
               className="download-btn-nav"
               onClick={() => scrollToSection('download')}
             >
-              Download App
+              Download Apk
             </button>
           </div>
 
@@ -178,26 +178,26 @@ function App() {
                   onClick={() => scrollToSection('download')}
                 >
                   <Download />
-                  Download Now
-                  <ArrowRight />
+                  Download Apk
+
                 </button>
-                <button
+                {/* <button
                   className="cta-button secondary"
                   onClick={() => scrollToSection('about')}
                 >
                   Learn More
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="hero-image-wrapper">
-  <div className="hero-image">
-    <img
-      src="/stock-5275746_1280.jpg"
-      alt="MnyMkt App Interface"
-      className="phone-screen"
-    />
-  </div>
-</div>
+              <div className="hero-image">
+                <img
+                  src="/stock-5275746_1280.jpg"
+                  alt="MnyMkt App Interface"
+                  className="phone-screen"
+                />
+              </div>
+            </div>
 
           </div>
         </div>
@@ -207,11 +207,11 @@ function App() {
       <section id="features" className="features">
         <div className="container">
           <div className="section-header">
-  <h2 className="section-title gradient-text">Why Choose MnyMkt?</h2>
-  <p className="section-description gradient-subtext">
-    Powerful features designed to help you grow your wealth and achieve your financial goals.
-  </p>
-</div>
+            <h2 className="section-title gradient-text">Why Choose MnyMkt?</h2>
+            <p className="section-description gradient-subtext">
+              Powerful features designed to help you grow your wealth and achieve your financial goals.
+            </p>
+          </div>
 
           <div className="features-grid">
             {features.map((feature, index) => (
@@ -245,7 +245,7 @@ function App() {
             <div className="about-text">
               <h2 className="section-title">About MnyMkt</h2>
               <p className="about-description">
-                Founded in 2020, InvestPro has revolutionized the way people approach investing.
+                Founded in 2020, MnyMkt has revolutionized the way people approach investing.
                 Our mission is to democratize financial markets and make investing accessible to everyone,
                 regardless of their experience level or account size.
               </p>
@@ -261,7 +261,7 @@ function App() {
                   <Shield className="highlight-icon" />
                   <div>
                     <h4>Fully Regulated</h4>
-                    <p>SEC registered and SIPC protected up to $500,000</p>
+                    <p>SEC registered and SIPC protected up to 500,000</p>
                   </div>
                 </div>
                 <div className="highlight">
@@ -286,47 +286,55 @@ function App() {
 
       {/* Screenshots Section */}
       <section id="screenshots" className="screenshots">
-  <div className="container">
-    <div className="section-header">
-      <h2 className="section-title">See MnyMkt in Action</h2>
-      <p className="section-description">
-        Discover how our intuitive interface makes investing accessible and enjoyable.
-      </p>
-    </div>
+        <div className="container">
+          <div className="section-header">
+            <h2 className="section-title">See MnyMkt in Action</h2>
+            <p className="section-description">
+              Discover how our intuitive interface makes investing accessible and enjoyable.
+            </p>
+          </div>
 
-    <div className="screenshots-grid">
+          <div className="screenshots-grid">
+            <div className="screenshot-item">
+              <div className="phone-frame">
+                <div className="screenshot-mockup">
+                  <img src="/Screenshot_1757490342.png" alt="Portfolio Dashboard" className="screenshot-img" />
+                </div>
+              </div>
 
-      <div className="screenshot-item">
-        <div className="phone-frame">
-          <div className="screenshot-mockup">
-            <img src="/WhatsApp Image 2025-09-08 at 6.07.31 PM.jpeg" alt="Portfolio Dashboard" className="screenshot-img" />
+            </div>
+
+            <div className="screenshot-item">
+              <div className="phone-frame">
+                <div className="screenshot-mockup">
+                  <img src="/WhatsApp Image 2025-09-08 at 6.07.30 PM.jpeg" alt="Portfolio Dashboard" className="screenshot-img" />
+                </div>
+              </div>
+
+            </div>
+
+            {/* Screenshot 2 */}
+            <div className="screenshot-item">
+              <div className="phone-frame">
+                <div className="screenshot-mockup">
+                  <img src="/WhatsApp Image 2025-09-08 at 6.07.32 PM.jpeg" alt="Market Analysis" className="screenshot-img" />
+                </div>
+              </div>
+
+            </div>
+
+            {/* Screenshot 3 */}
+            <div className="screenshot-item">
+              <div className="phone-frame">
+                <div className="screenshot-mockup">
+                  <img src="/photo-3.jpeg" alt="Easy Trading" className="screenshot-img" />
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
-        
-      </div>
-
-      {/* Screenshot 2 */}
-      <div className="screenshot-item">
-        <div className="phone-frame">
-          <div className="screenshot-mockup">
-            <img src="/WhatsApp Image 2025-09-08 at 6.07.30 PM.jpeg" alt="Market Analysis" className="screenshot-img" />
-          </div>
-        </div>
-        
-      </div>
-
-      {/* Screenshot 3 */}
-      <div className="screenshot-item">
-        <div className="phone-frame">
-          <div className="screenshot-mockup">
-            <img src="/WhatsApp Image 2025-09-08 at 6.07.32 PM.jpeg" alt="Easy Trading" className="screenshot-img" />
-          </div>
-        </div>
-       
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* Download Section */}
@@ -336,7 +344,7 @@ function App() {
             <div className="download-text">
               <h2 className="section-title">Ready to Start Investing?</h2>
               <p className="download-description">
-                Join thousands of investors who are already building their wealth with InvestPro.
+                Join thousands of investors who are already building their wealth with MnyMkt.
                 Download our app today and start your investment journey with confidence.
               </p>
               <div className="download-features">
@@ -360,7 +368,7 @@ function App() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                 
+
                 </a>
               </div>
             </div>
@@ -369,7 +377,7 @@ function App() {
                 <div className="phone-mockup download-phone">
                   <img
                     src="/ChatGPT Image Sep 9, 2025, 01_57_09 PM.png"
-                    alt="InvestPro Mobile App"
+                    alt="MnyMkt Mobile App"
                     className="phone-screen"
                   />
                 </div>
@@ -385,7 +393,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="footer-logo">
-                <TrendingUp className="footer-logo-icon" />
+            <img src="/Logo.png" alt="Logo" className="logo-img" />
                 <span>MNYMKT</span>
               </div>
               <p className="footer-description">
@@ -414,7 +422,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 InvestPro. All rights reserved.</p>
+            <p>&copy; 2024 MnyMkt. All rights reserved.</p>
           </div>
         </div>
       </footer>
